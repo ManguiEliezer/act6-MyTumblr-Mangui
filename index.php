@@ -1,3 +1,13 @@
+<?php 
+//start the session function
+session_start();
+
+//create a pre defined username and password since we do not have database
+$acc_username = "ManguiEliezer";
+$acc_password = "mylovesosweet";
+$acc_fullname = "Eliezer L. Mangui";
+$acc_address = "Candahon Mogpog Marinduque PH";
+?>
 <!doctype html>
 <html lang="en">
   <head>
